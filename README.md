@@ -5,7 +5,7 @@ This repository holds Spring Boot sample applications on OpenShift. It cover the
 * Deploy and Debug Spring Boot Application in Openshit
 
 ## Pre-requisite
-Before you try these examples download and setup [minishift] (https://docs.openshift.org/latest/minishift/index.html)
+Before you try these examples download and setup minishift (https://docs.openshift.org/latest/minishift/index.html)
 
 ## Start minishift
 ```
@@ -26,7 +26,7 @@ Start a minishift with 4GB memory and 2 CPUS and profile name called `springboot
  ./mvnw fabric8:resource 
 ```
 
-** build and deploy the maven project to OpenShift
-** undeploy the maven project if it exits in OpenShift
-** Generate the OpenShift manifests
+* build and deploy the maven project to OpenShift
+* undeploy the maven project if it exits in OpenShift
+* Generate the OpenShift manifests
 
