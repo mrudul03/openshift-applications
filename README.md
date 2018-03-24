@@ -5,7 +5,7 @@ This repository holds Spring Boot sample applications on OpenShift. It cover the
 * Deploy and Debug Spring Boot Application in Openshit
 
 ## Pre-requisite
-Before you try these examples download and setup [https://docs.openshift.org/latest/minishift/index.html] (minishift)
+Before you try these examples download and setup [minishift] (https://docs.openshift.org/latest/minishift/index.html)
 
 ## Start minishift
 ```
