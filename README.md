@@ -4,10 +4,10 @@ This repository holds Spring Boot sample applications on OpenShift. It cover the
 
 * Deploy and Debug Spring Boot Application in Openshit
 
-== Pre-requisite
+## Pre-requisite
 Before you try these examples download and setup https://docs.openshift.org/latest/minishift/index.html[minishift]
 
-== Start minishift
+## Start minishift
 ----
 minishift start <1>
 ----
@@ -18,9 +18,7 @@ minishift --profile springboot_msa_on_oc --memory=4096 --cpus=2 start <2>
 ----
 <2> Start a minishift with 4GB memory and 2 CPUS and profile name called `springboot_msa_on_oc`
 
-====
-
-== Common commands
+## Common commands
 [source,sh]
 ----
  ./mvnw fabric8:deploy <1>
